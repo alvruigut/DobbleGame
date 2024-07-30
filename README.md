@@ -1,5 +1,7 @@
 # Dobble Game
 
+Base Project PetClinic
+
 <a href="https://speakerdeck.com/michaelisvy/spring-dobble-sample-application">See the presentation here</a>
 
 ## Running dobble backend locally
