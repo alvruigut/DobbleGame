@@ -1,0 +1,52 @@
+.home-page-container{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    /*background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../../images/home_background.jpg');*/
+    background-color: blueviolet;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-div{
+    background-color: rgba(255, 255, 255, 0.3);
+    padding: 2rem;
+    border-radius: 25px;
+    backdrop-filter: blur(10px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-div h1{
+    font-size: 3rem;
+    font-weight: 700;
+    color: #2f324f;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.hero-div h3{
+    text-align: center;
+}
+
+.fond{
+
+    position: fixed;
+    top: 1;
+    left:0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(174, 97, 213); /* Cambia "purple" al tono de morado que desees */
+    color: white; /* Cambia "white" al color de texto que desees */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
